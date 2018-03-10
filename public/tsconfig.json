@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./built/",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5"
+    },
+    "include": [
+        "./ts/**/*"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "extends": [
+      "tslint:recommended",
+      "tslint-eslint-rules"
+    ],
+    "rules": {
+      "no-namespace": false,
+      "no-consecutive-blank-lines": false,
+      "array-type": [true, "generic"],
+      "quotemark": [true, "single"],
+      "member-ordering": [
+        true,
+        {
+          "order": [
+            "static-field",
+            "instance-field",
+            "constructor",
+            "public-static-method",
+            "private-static-method",
+            "public-instance-method",
+            "protected-instance-method",
+            "private-instance-method"
+          ]
+        }
+      ],
+      "completed-docs": true,
+      "jsdoc-format": true,
+      "object-curly-spacing": [true, "always"],
+      "ter-indent": [true, 2],
+      "no-console": {
+        "severity": "warning"
+      }
+    }
+  }

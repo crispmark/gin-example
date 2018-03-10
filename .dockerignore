@@ -1,0 +1,6 @@
+# vendor files
+vendor
+public/node_modules
+
+# compiled files
+gin-example

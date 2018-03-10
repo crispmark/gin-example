@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  web:
+    build: .
+    ports:
+     - "9000:9000"
+    volumes:
+      - ./:/go/src/gin-example
+    command: sh
